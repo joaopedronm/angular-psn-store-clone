@@ -1,0 +1,38 @@
+/* Estilos do footer */
+footer {
+    margin-top: 5em;
+    background-color: #fff;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    height: 30px;
+}
+
+.footer-info {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-info a {
+    font-family: 'Segoe UI';
+    color: blue;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-right: 10px;
+}
+
+.footer-info a:hover {
+    color: #3478ff;
+}
